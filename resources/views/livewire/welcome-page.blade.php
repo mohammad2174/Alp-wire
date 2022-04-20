@@ -11,7 +11,7 @@
         </div>
     </div>
     <div class="py-24">
-        <p class="text-5xl font-extrabold text-center">welcome</p>
+        <p class="text-5xl font-extrabold text-center">Welcome</p>
         <p class="mt-14 text-gray-900 text-center">Welcome to the website Intense Gym! We hope that you will appreciate
             our services
             and opportunities we offer<br /> our loyal and potential customers. Here are some of them:</p>
@@ -176,4 +176,74 @@
                 give you the superior results.</p>
         </div>
     </div>
-</div>
+    <div class="flex -space-x-1 overflow-hidden">
+        <div class="bg-cover"
+            style="width: 29rem; height: 21rem; margin-top: 3rem; margin-left: 6rem;
+    margin-right: 1rem; cursor: pointer; background-image: url('https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Zml0bmVzcyUyMG1hbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60')">
+            <div>
+                <h1
+                    class="text-3xl text-gray-200 hover:text-yellow-400 text-center mt-48 font-extrabold tracking-tight text-white sm:text-5xl">
+                    FITNESS
+                </h1>
+                <button
+                    class="mt-6 ml-24 w-52 bg-red-600 border border-transparent rounded-md py-3 px-8 flex items-center justify-center text-base font-medium text-white hover:bg-yellow-400">FREE
+                    FIRST LESSON</button>
+            </div>
+        </div>
+        <div class="bg-cover"
+            style="width: 29rem; height: 21rem; margin-top: 3rem; cursor: pointer;  background-image: url('https://media.istockphoto.com/photos/life-can-be-tough-but-so-can-you-picture-id519621034?b=1&k=20&m=519621034&s=170667a&w=0&h=UBJVD6X2TTnBp7Vwshu17KejoQhQ4cO6ZLKwN-PkO5U=')">
+            <div>
+                <h1
+                    class="text-3xl text-gray-200 hover:text-yellow-400 text-center mt-48 font-extrabold tracking-tight text-white sm:text-5xl">
+                    BODYBUILDING
+                </h1>
+                <button
+                    class="mt-6 ml-24 w-52 bg-red-600 border border-transparent rounded-md py-3 px-8 flex items-center justify-center text-base font-medium text-white hover:bg-yellow-400">FREE
+                    FIRST LESSON</button>
+            </div>
+        </div>
+        <div class="bg-cover"
+            style="width: 29rem; height: 21rem; margin-top: 3rem; margin-left: 1rem;
+    margin-right: 6rem; cursor: pointer;  background-image: url('https://images.unsplash.com/photo-1601422407692-ec4eeec1d9b3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8Y3Jvc3NmaXR8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60')">
+            <div>
+                <h1
+                    class="text-3xl text-gray-200 hover:text-yellow-400 text-center mt-48 font-extrabold tracking-tight text-white sm:text-5xl">
+                    CROSSFIT
+                </h1>
+                <button
+                    class="mt-6 ml-24 w-52 bg-red-600 border border-transparent rounded-md py-3 px-8 flex items-center justify-center text-base font-medium text-white hover:bg-yellow-400">FREE
+                    FIRST LESSON</button>
+            </div>
+        </div>
+    </div>
+    <p class="text-5xl pt-20 font-extrabold text-center">Coaches</p>
+    <div class="flex -space-x-1 overflow-hidden">
+        <div class="bg-cover"
+            style="width: 29rem; height: 21rem; margin-top: 3rem; margin-left: 6rem;
+    margin-right: 1rem; cursor: pointer; background-image: url('https://images.unsplash.com/photo-1606335543586-137481155deb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fGZpdG5lc3MlMjBtYW58ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60')">
+            <div>
+                <h1
+                    class="text-3xl text-gray-200 hover:text-yellow-400 text-center mt-48 font-extrabold tracking-tight text-white sm:text-5xl">
+                    Ryan Jackson
+                </h1>
+                <h3 class="text-center text-red-600">FITNESS</h3>
+            </div>
+        </div>
+        <div class="bg-cover"
+            style="width: 29rem; height: 21rem; margin-top: 3rem; cursor: pointer;  background-image: url('https://images.unsplash.com/photo-1534367743672-ca72e0983478?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mzl8fGJvZHlidWlsZGluZyUyMHdvbWFufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60')">
+            <h1
+                class="text-3xl text-gray-200 hover:text-yellow-400 text-center mt-48 font-extrabold tracking-tight text-white sm:text-5xl">
+                Emily Perkins
+            </h1>
+            <h3 class="text-center text-red-600">BODYBUILDING</h3>
+        </div>
+        <div class="bg-cover"
+            style="width: 29rem; height: 21rem; margin-top: 3rem; margin-left: 1rem;
+    margin-right: 6rem; cursor: pointer;  background-image: url('https://images.unsplash.com/photo-1551763337-e05b91996d32?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTU4fHxjcm9zc2ZpdHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60')">
+            <h1
+                class="text-3xl text-gray-200 hover:text-yellow-400 text-center mt-48 font-extrabold tracking-tight text-white sm:text-5xl">
+                Austin Ortiz
+            </h1>
+            <h3 class="text-center text-red-600">CROSSFIT</h3>
+        </div>
+    </div>
