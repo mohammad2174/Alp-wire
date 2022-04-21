@@ -10,4 +10,19 @@ class WelcomePage extends Component
     {
         return view('livewire.welcome-page');
     }
+
+    public function fitness()
+    {
+        return redirect()->to('/fitness');
+    }
+
+    public function bodybuilding()
+    {
+        return redirect()->to('/bodybuilding');
+    }
+
+    public function crossfit()
+    {
+        return redirect()->to('/crossfit');
+    }
 }

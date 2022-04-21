@@ -185,7 +185,7 @@
                     class="text-3xl text-gray-200 hover:text-yellow-400 text-center mt-48 font-extrabold tracking-tight text-white sm:text-5xl">
                     FITNESS
                 </h1>
-                <button
+                <button wire:click="fitness"
                     class="mt-6 ml-24 w-52 bg-red-600 border border-transparent rounded-md py-3 px-8 flex items-center justify-center text-base font-medium text-white hover:bg-yellow-400">FREE
                     FIRST LESSON</button>
             </div>
@@ -197,7 +197,7 @@
                     class="text-3xl text-gray-200 hover:text-yellow-400 text-center mt-48 font-extrabold tracking-tight text-white sm:text-5xl">
                     BODYBUILDING
                 </h1>
-                <button
+                <button wire:click="bodybuilding"
                     class="mt-6 ml-24 w-52 bg-red-600 border border-transparent rounded-md py-3 px-8 flex items-center justify-center text-base font-medium text-white hover:bg-yellow-400">FREE
                     FIRST LESSON</button>
             </div>
@@ -210,7 +210,7 @@
                     class="text-3xl text-gray-200 hover:text-yellow-400 text-center mt-48 font-extrabold tracking-tight text-white sm:text-5xl">
                     CROSSFIT
                 </h1>
-                <button
+                <button wire:click="crossfit"
                     class="mt-6 ml-24 w-52 bg-red-600 border border-transparent rounded-md py-3 px-8 flex items-center justify-center text-base font-medium text-white hover:bg-yellow-400">FREE
                     FIRST LESSON</button>
             </div>
