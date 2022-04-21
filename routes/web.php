@@ -16,3 +16,15 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/fitness', function () {
+    return view('fitness');
+});
+
+Route::get('/bodybuilding', function () {
+    return view('bodybuilding');
+});
+
+Route::get('/crossfit', function () {
+    return view('crossfit');
+});
