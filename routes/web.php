@@ -28,3 +28,7 @@ Route::get('/bodybuilding', function () {
 Route::get('/crossfit', function () {
     return view('crossfit');
 });
+
+Route::get('/users', function () {
+    return view('users');
+});
