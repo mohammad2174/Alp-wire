@@ -12,7 +12,6 @@
 
 <body class="antialiased">
     @livewire('welcome-page')
-
     @livewireScripts
 </body>
 

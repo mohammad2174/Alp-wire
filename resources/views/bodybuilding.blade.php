@@ -11,9 +11,9 @@
 </head>
 
 <body class="antialiased">
+
     @livewire('bodybuilding-page')
 
-    @livewireScripts
 </body>
 
 </html>
