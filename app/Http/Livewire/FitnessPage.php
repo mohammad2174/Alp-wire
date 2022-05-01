@@ -11,6 +11,12 @@ class FitnessPage extends Component
     public $email;
     public $phone;
     public $package;
+    public $users;
+
+    public function mount()
+    {
+        $this->users = User::all();
+    }
 
     protected $rules = [
         "name" => "required|min:6",
@@ -38,6 +44,6 @@ class FitnessPage extends Component
 
     public function render()
     {
-        return view('livewire.fitness-page');
+        return view('livewire.bodytable-page');
     }
 }

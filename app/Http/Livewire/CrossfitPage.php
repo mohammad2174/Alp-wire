@@ -11,6 +11,12 @@ class CrossfitPage extends Component
     public $email;
     public $phone;
     public $package;
+    public $users;
+
+    public function mount()
+    {
+        $this->users = User::all();
+    }
 
     protected $rules = [
         "name" => "required|min:6",
@@ -38,6 +44,6 @@ class CrossfitPage extends Component
 
     public function render()
     {
-        return view('livewire.crossfit-page');
+        return view('livewire.bodytable-page');
     }
 }

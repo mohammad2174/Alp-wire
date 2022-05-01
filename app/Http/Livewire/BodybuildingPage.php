@@ -44,6 +44,10 @@ class BodybuildingPage extends Component
 
     public function render()
     {
+<<<<<<< HEAD
         return view('livewire.body-table');
+=======
+        return view('livewire.bodytable-page');
+>>>>>>> feature/new-feature
     }
 }
