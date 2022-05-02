@@ -438,6 +438,9 @@ Ensure the default browser behavior of the `hidden` attribute.
 .pointer-events-none {
   pointer-events: none;
 }
+.invisible {
+  visibility: hidden;
+}
 .absolute {
   position: absolute;
 }
@@ -500,12 +503,9 @@ Ensure the default browser behavior of the `hidden` attribute.
 .grid {
   display: grid;
 }
-<<<<<<< HEAD
-=======
 .hidden {
   display: none;
 }
->>>>>>> feature/new-feature
 .h-6 {
   height: 1.5rem;
 }
