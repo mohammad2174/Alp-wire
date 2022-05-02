@@ -66,7 +66,7 @@
             <button type="submit"
                 class="flex items-center justify-center px-8 py-3 mt-10 text-base font-medium text-white bg-indigo-600 border border-transparent rounded-md w-72 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">Add</button>
         </form>
-        <div class="max-w-2xl mx-auto">
+        <div class="max-w-2xl mx-auto" x-show="open">
             <div class="relative overflow-x-auto shadow-md sm:rounded-lg" x-data="{
                 search: '',
                 @foreach ($users as $user) items: ['{{ $user->name }}'], @endforeach
@@ -120,7 +120,7 @@
                                     <td scope="row"
                                         class="px-6 py-4 font-medium text-gray-900 dark:text-white whitespace-nowrap">
                                         {{ $user->name }}
-                                        <span class="hidden" x-text="item"></span>
+                                        <span class="invisible" x-text="item"></span>
                                     </td>
                                     <td class="px-6 py-4">
                                         {{ $user->email }}
